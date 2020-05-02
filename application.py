@@ -15,7 +15,7 @@ import sys
 print("Python version")
 print (sys.version)
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
 
@@ -206,11 +206,11 @@ def imageprocess(imagename):
 
 
 #define app routes
-@app.route("/")
+@application.route("/")
 def index():
     return render_template("index.html")
 	
-@app.route("/get")
+@application.route("/get")
 #function for the bot response
 def text():
      input=request.args.get('msg')
@@ -218,14 +218,14 @@ def text():
      return text_response(input)
     
  
-@app.route('/voice')
+@application.route('/voice')
 def get_voice():
      input=request.args.get('voice')
      #print(input)
      return text_response(input)
 
 
-@app.route('/call', methods=['POST'])
+@application.route('/call', methods=['POST'])
 def calls():
     print(request.method)
     print(output)
@@ -238,13 +238,13 @@ def calls():
 
 
 
-@app.route('/uploader', methods = ['GET', 'POST'])
+@application.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
    global secure_filename
    if request.method == 'POST':
       f = request.files['file']
       secure_filename=secure_filename(f.filename)
-      img_path=os.path.join(app.root_path,secure_filename)
+      img_path=os.path.join(application.root_path,secure_filename)
       f.save(img_path)
       print("File name printed")
       print(f.filename)
@@ -255,4 +255,4 @@ def upload_file():
 
 
 if __name__ == "__main__":
-    app.run()
+    application.run()
