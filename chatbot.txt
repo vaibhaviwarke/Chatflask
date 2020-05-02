@@ -1,0 +1,334 @@
+
+[1] centralised police number is 100 .
+
+[2] centralised fire brigade number is 101 .
+
+[3] centralised woman helpline number is 1091 .
+
+[4] centralised Ambulance number is 108 .
+
+[5] centralised Disaster helpline number is 1077 .
+
+[6] Fire brigade number of HADAPSAR FIRE STATION is 02026870207 .
+
+[7] Fire brigade number of YERWADA FIRE STATION is 02026696400 .
+
+[8] Fire brigade number of KASBA FIRE STATION is 02024578950 .
+
+[9] Fire brigade number of ERANDAWANA FIRE STATION is 02025468373 .
+
+[10] Fire brigade number of SINHAGAD FIRE STATION is 02024345152 .
+
+[11] Fire brigade number of PASHAN FIRE STATION is 02020250985 .
+
+[12] Fire brigade number of AUNDH FIRE STATION is 02025851788 .
+
+[13] Ambulance number of K.E.M HOSPITAL is 9421018970 .
+
+[14] Ambulance number of JEHANGIR HOSPITAL is 8888881066 .
+
+[15] Ambulance number of POONA HOSPITAL is 02066096000 .
+
+[16] police station number of bhosari is 02027124728 .
+
+[17] police station number of bhosari MIDC is 02027130003 .
+
+[18] police station number of Dighi is 02029700487 .
+
+[19] police station number of aalandi is 02135232214 .
+
+[20] police station number of chakan is 02135249333 .
+
+[21] police station number of pimpri is 02027458180 .
+
+[22] police station number of chinchwad is 02027356768 .
+
+[23] police station number of nigadi is 02027655088 .
+
+[24] police station number of wakad is 02027261120 .
+
+[25] police station number of sangavi is 02027286162 .
+
+[26] police station number of Hinjewadi is 02022932119 .
+
+[27] police station number of Dehu Road is 02027671288 .
+
+[28] police station number of Chikhali is 9881183598 .
+
+[29] police station number of Talegaon Dabhade is 02114222444 .
+
+[30] police station number of Talegaon MIDC is 02114202333 .
+
+[31] police station number of Vishrantwadi is 02026208272 .
+
+[32] police station number of Ramwadi is 02026633888 .
+
+[33] police station number of Yerawada is 02026684456 .
+
+[34] police station number of Dapodi is 2027149538 .
+
+[35] police station number of Bopodi is 02025812847 .
+
+[36] police station number of Khadki is 02025818659 .
+
+[37] police station number of Vishrambaug is 02024457750 .
+
+[38] police station number of Deccan is 02025675005 .
+
+[39] police station number of Shivaji Nagar is 02025536263 .
+
+[40] police station number of Sahakar Nagar is 02024228113 .
+
+[41] police station number of swargate is 02024452769 .
+
+[42] police station number of Bharati Vidyapith is 02024365100 .
+
+[43] police station number of bund garden is 02026123825 .
+
+[44] police station number of koregaon park is 02026052222 .
+
+[45] police station number of Kothrud is 02025391515 .
+
+[46] police station number of Varje Marwadi is 02025237777 .
+
+[47] police station number of Uttam Nagar is 02025293222 .
+
+[48] police station number of SINHAGAD Road is 02024348270 .
+
+[49] police station number of Dattawadi is 02024220205 .
+
+[50] police station number of Alankar is 02025445003 .
+
+[51] police station number of Chandan Nagar is 02027012321 .
+
+[52] police station number of Viman Nagar is 02026633888 .
+
+[53] police station number of Mundhwa is 02026890153 .
+
+[54] police station number of HADAPSAR is 02026996577 .
+
+[55] police station number of chaturshringi is 02025655335 .
+
+[56] police station number of Kondhawa is 02026930780 .
+
+[57] police station number of Bibwewadi is 02024282003 .
+
+[58] police station number of market yard is 020 24275137 .
+
+[59] police station number of wanowrie is 02026824981 .
+
+[60] police station number of Lakshar is 02026333549 .
+
+[61] police station number of Kasaba Peth is 02024456571 .
+
+[62] police station number of Aundh is 2025881611 .
+
+[63] police station number of Alandi is 02135232214 .
+
+[64] police station number of Mangaldas Road is 2026122202 .
+
+[65] police station number of Range Hills is 2025824424 .
+
+[66] police station number of Narayan Peth is 02024452722 .
+
+[67] police station number of Jangali Maharaj Road is 2025208414 .
+
+[68] police station number of Faraskhana is 02024452250 .
+
+[69] police station number of GPO is 0202669210 .
+
+[70] police station number of Somwar peth is 02026135491 .
+
+[71] police station number of Nana peth is 02026336432 .
+
+[72] police station number of Poolgate is 02026345845 .
+
+[73] police station number of gadital is 2026111013 .
+
+[74] police station number of Mahatma phule peth is 2024472771 .
+
+[75] police station number of Lakshmi Nagar is 2024227920 .
+
+[76] police station number of Bhairoba Nala is 02026330608 .
+
+[77] police station number of Maharshi station is 02024261871 .
+
+[78] Blood bank number of Inlaks Budharai Hospital Blood Bank at Koregaon Park is 02056099727 .
+
+[79] Blood bank number of Indian Serological Institute Blood Bank at Navi Peth, pune is 02024535244 .
+
+[80] Blood bank number of Acharya Anandrushiji Blood Bank at Sadashiv Peth is 02024537627 .
+
+[81] Blood bank number of Indian Red Cross Society Blood Bank at Rasta Peth, pune is 020620950 .
+
+[82] Blood bank number of Akshay Blood Bank at Hadapsar is 02026993247 .
+
+[83] Blood bank number of Garware Blood Bank at Talegaon Dhabhade is 02114226431 .
+
+[84] Blood bank number of Pune Chest Hospital Blood Bank at Aundh Camp is 02027280237 .
+
+[85] Blood bank number of IRCS (Late Manikbai Chandulal Saraf Blood Bank ) at Baramati is 02112222951 .
+
+[86] Blood bank number of Dean, Sasoon Sarvopchar Hospital Blood Bank at Station Road, Pune is 02026128000 .
+
+[87] Blood bank number of Deendayal Memorial Hospital Blood Bank at F.C.Road, Shivaji Nagar is 02025652497 .
+
+[88] Blood bank number of Grant Medical Foundation Ruby Hall Clinic A.H. Wadia Trust Blood Bank at Sassoon Road,Pune is 02026166318 .
+
+[89] Blood bank number of Bharati Hospital Blood Bank at Dhankawadi is 02040555555.
+
+[90] Blood bank number of Krantiveer Chapekar Bandhu Blood Bank at Tanaji Nagar, Chinchwad is 02027610054 .
+
+[91] Blood bank number of Armed Forces Medical College Blood Bank at Wanwadi, Pune is 02026306038 .
+ 
+[92] Blood bank number of Dr.C.T.Shah Memorial Blood Bank at Daund is 02117263938 .
+
+[93] Blood bank number of Shri.Narayandas Ramdas Shah Blood Bank at varje marwadi road is 02111225136 .
+
+[94] Blood bank number of Deenanath Mangeshkar Hospital, Blood Bank at Erandawane is 02049153081 .
+
+[95] Blood bank number of Aditya Birla Memorial Hospital Blood Bank at  Thergaon, Chinchwad is 02030717664 .
+
+[96] Blood bank number of Rakesh Jain Memorial Blood Bank at Poona Hospital & Reserch Centre is 02024331706 .
+
+[97] Blood bank number of Smt Kashibai Navale General Hospital Blood Bank at Narhe is 02024106140 .
+
+[98] Blood bank number of Pimpari Serological Institute Blood Bank at Kharalwadi, Pimpari is 02027421179 .
+
+[99] Blood bank number of Chakan Blood Bank at chakan, khed is 02135202141 .
+
+[100] Blood bank number of Sarvodaya Samaj Vikas Sanstha, R.G Gholap Memorial Blood Bank at Satara Road  is 9822442140 .
+
+[101] Blood bank number of Kranti Mitra Mandal Charitable Trust, Pune Blood Bank at Gadital, Hadapsar is 02026992828 .
+
+[102] Blood bank number of The New Century Medical & Education Foundation Trust, NCORD Blood Bank at Medipoint is 02046608585 .
+
+[103] Blood bank number of CHATRAPATI SAHU MAHARAJ, AADHAR BLOOD BANK at DHANKWADI is 02065266999 .
+
+[104] Blood bank number of Ekta Apang Vikas Sansthas, Ayush Blood Bank at Kondhwa is 02026855144 .
+
+[105] Blood bank number of M/s Vidyashree Charitable Trusts Om Blood Bank at Mangalwar Peth is 02032918080 .
+
+[106] Blood bank number of M/s Bharati Vidyapeeth Medical Foundations Bharati Hospital Blood Bank at DHANKWADI is 02040555555 .
+
+[107] Blood bank number of Pimpri Chinchwad Blood Bank at Pimpari is 02227420909 .
+
+[108] Blood bank number of Manikraj Bahuuddeshiya Samajsevi Sanstha, Moraya Blood Bank at Mohan Nagar, chinchwad is 02027462000 .
+
+[109] Blood bank number of Jupiter Lifeline Hospital Blood Bank at Pimple Nilakh Road, Baner is 02027992799 .
+
+[110] Blood bank number of The New Century Medical & Educational Foundation Trusts Sanjeevani Blood Bank at Bhosari is 8329534210 .
+
+[111] Blood bank number of Parshuram Medical Rsearch Fundations Rotary Blood Bank at Daund is 7756873333 .
+
+[112] Blood bank number of M/s Late R.T. Bhoite Smruti Arogya Pratishthan, Girija Blood Bank at Baramati is 02112220225 .
+
+[113] Blood bank number of JANKALYAN RAKTHAPEDI at shukrwar peth is 02024449527 .
+
+[114] Blood bank number of BLOOD TRANFUSION COUNCIL at pune is 02222830216 .
+
+[115] Blood bank number of LOKMANYA Medical at chinchwad is 0202745922 .
+
+[116] Blood bank number of JEHANGIR Hospital at sasoon road, pune is 02066811723 .
+
+[117] Blood bank number of K.E.M HOSPITAL at rastha peth, pune is 02056037324 .
+
+[118] Blood bank number of Dr. D.Y Patil at pimpri is 02027805159 .
+
+[119] Blood bank number of SAHYADRI Hospital at erandvane, karve road is 0205454001 .
+
+[120] Blood bank number of Y.C.M Hospital at Pimpri is 02067332389 .
+
+[121] Blood bank number of RED PLUS at Bhosari is 02027112365 .
+
+[122] Blood bank number of LIONS CLUB at Narayangaon is 02132245500 .
+
+[123] Blood bank number of POONA Hospital at rastha peth is 02066096000  .
+
+[124] Hospital number of KEM Hospital at rastha peth, pune is 02026217300 .
+
+[125] Hospital number of SAHYADRI Hospital at erandvane, karve road is 8888822222  .
+
+[126] Hospital number of Jehangir Hospital at sasoon road, pune is 02066819999 .
+
+[127] Hospital number of Y.C.M. Hospital at pimpri is 02067332222 .
+
+[128] Hospital number of E.S.I. Hospital at Hadapsar is 095204214112 .
+
+[129] Hospital number of Aundh Government Hospital at aundh is 02027280237 .
+
+[130] Hospital number of Southern Command Hospital at wanowrie is 7507063567 .
+
+[131] Hospital number of Kamla Nehru Hospital at mangalwar peth, pune is 02025508500 .
+
+[132] Hospital number of NOBLE Hospital at Magarpatta, Hadapsar is 8007006611 .
+
+[133] Hospital number of POONA Hospital at Sadashiv Peth, Pune is 02024331706 .
+
+[134] Hospital number of Lokmanya Hospital in chinchwad is 7709349753 .
+
+[135] Hospital number of Lokmanya Hospital in nigadi is 9850880191 .
+
+[136] Hospital number of Bharati Hospital at Satara Road, Dhankwadi is 24375182 .
+
+[137] Hospital number of Cantonment Hospital Hill Estate at Khadki is 26350530 .
+
+[138] Hospital number of Chest Hospital at Aundh is 27280237 .
+
+[139] Hospital number of Deenanath Mangeshkar Hospital Mangeshkar Hospital at Erandwana is 24023000 .
+
+[140] Hospital number of Deendayal Hospital at Shivaji nagar fc Road is 25652497 .
+
+[141] Hospital number of Dr. Ambedkar Hospital at Raviwar Peth is 25819283 .
+
+[142] Hospital number of Dharma Hospital at Yerwada is 26693983 .
+
+[143] Hospital number of Deshpande Hospitality at Dehu Road is 25431961 .
+
+[144] Hospital number of Dwidal Nursing Home at Erandwane, Karve Road, Deccan Gymkhana is 25440633 .
+
+[145] Hospital number of Hardikar Accident Hospital Ganesh Khind Road, Shivajinagar is 25535326 .
+
+[146] Hospital number of Inamdar's Heart Hospital at Pimpri	is 25885679 .
+
+[147] Hospital number of Inlaks & Bhudrani & M N B Cancer South Wing, Koregaon Park is 26129080 .
+
+[148] Hospital number of Godbole Hospital at S.P. College is 24474338 .
+
+[149] Hospital number of Gokhale Memorial Hospital at Nana Peth is 24444367 .
+
+[150] Hospital number of Kamath Hospital at Delux Road, Pimpri is 27454777 .
+
+[151] Hospital number of Krishna General Hospital at Shivaji Nagar is	26993247 .
+
+[152] Hospital number of Kulkarni Dispensary at Delux Road, Pimpri is	27120674 .
+
+[153] Hospital number of Mahatma Gandhi Hospital at Nanapeth Rajewadi Road is 24475722 .
+
+[154] Hospital number of Naik Hospital at Shukrawar Peth is	24476555 .
+
+[155] Hospital number of N. M. Wadia Cardiology at Sasson Road is 24472463 .
+
+[156] Hospital number of Ruby Hall at Dhole Patile Road is 26123391 .
+
+[157] Hospital number of Sancheti Hospital at Shivaji Nagar is 25533333 .
+
+[158] Hospital number of Sanjevani Hospital at Nana Peth is	25441465 .
+
+[159] Hospital number of Sassoon Hospital at Sassoon Road, Camp is 26128000 .
+
+[160] Hospital number of Shatayu Hospital at Dhankawadi is 24373344 .
+
+[161] Hospital number of Sane Guruji Hospital is Hadapsar is 26999292 .
+
+[162] Hospital number of Sumati Helth Medical And Diagnostic Centre at J. M. Road, Deccan Gymkhana is 26140771 .
+
+[163] Hospital number of Sadhu Vaswani Medical Complex at Koregaon Park is 24129999 .
+
+[164] Hospital number of Sai Sneh Hospital at Katraj is 26959208 .
+
+[165] Hospital number of Tabe Treatment Clinic Choice Apartment at Dhole Patil Road is 26126353 .
+
+[166] Hospital number of Vinod Memorial Hospital at Vishrantwadi, Dighi Camp is 26696202 .
+
+[167] Police number in shivajinagar 07796384912

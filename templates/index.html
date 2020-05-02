@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>EmergencyBot</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+
+
+<body >
+
+	 <div class="bg">
+	 <div style="background-color: #52ebab;" class="jumbotron jumbotron-fluid">  
+	 <h1 style="text-align:center;">Emergency System</h1>
+	 <h2 style="text-align:center;">Don't Panic!!!</h2>      
+     <h3 style="text-align:center;"><marquee behavior="alternate" scrollamount="10">Indian Emergency Numbers : 112, Police 100, Ambulance 108, Fire Brigade 101, Woman Helpline 1091</marquee></h3>
+     </div>
+	
+<div class="container"  >  
+    <div class="text-center" >
+        <div ><!-- size of chatting element-->
+            <div id="chatbox" class="border border-success"  >
+                <p class="botText" style=" text-align:center"><span>Hi!! Any Emergency Contact 112</span></p>
+            </div>
+            <div id="userInput">
+                <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here" style=" text-align:center">
+                <input id="buttonInput" class="btn btn-success form-control" type="submit" value="Send" style=" text-align:center">
+				
+				<!--#EAFF33  #50ebaa 
+				<div class="speech">
+				 <a href="/voice"><img  src="https://i.imgur.com/cHidSVu.gif" />
+				</div>-->
+				
+			
+				<!-- Speech-->
+	            
+                <canvas id="CANVAS" name="CANVAS" width="100" height="150">Your browser does not support Canvas.</canvas>
+  
+    
+				<div id="container"  name='cont' class="container-fluid no-padding" >
+				<video autoplay="true" id="videoElement" name='vid' style="background-color:Red">
+     
+				</video>
+				</div>
+
+				<a id="download" download="face.jpg"></form>
+				<button onclick="myFunction(); download();" align="center" style="margin: 20px 250px auto " class="btn btn-primary dropdown-toggle" type="button" >capture</button></a>	
+				
+				
+				
+			
+			  <form method="post" action="/call">
+                <input type="submit" value="Call" name="Encrypt" style=" text-align:center, margin-left: auto;">
+            </form>
+			
+			
+			 
+			
+			 
+			
+			
+			 <form action = "/uploader" method = "POST" 
+				enctype = "multipart/form-data">
+				<input type = "file" name = "file" />
+				<input type = "submit"/>
+			</form>
+					
+							
+							
+			
+            </div>
+            </div>	
+		
+	  
+	  
+        </div>
+	 
+	  
+	  
+	  
+	 
+<script>
+    
+
+
+	var SpeechRecognition = window.webkitSpeechRecognition;
+	var recognition = new SpeechRecognition();
+
+    var Textbox = $('#textInput'); 
+
+	var instructions = $('instructions');
+
+	var Content = '';
+
+	recognition.continuous = true;
+	
+	recognition.onresult = function(event) {
+
+	var current = event.resultIndex;
+
+	var transcript = event.results[current][0].transcript;
+ 
+    Content += transcript;
+    Textbox.val(Content);
+  
+     };
+
+
+recognition.onspeechend = function() {
+  instructions.text('Voice Recognition Stopped');
+  recognition.stop();
+}
+
+recognition.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    instructions.text('Try again.');  
+  }
+}
+	
+		
+		/*Textbox.on('input', function() {
+  Content = $(this).val();
+})
+
+    Content=null;*/
+	
+	
+	
+	function getResponseText() {
+        let userText = $("#textInput").val();
+        let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
+        $("#textInput").val("");
+        $("#chatbox").append(userHtml);
+        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+        $.get("/get", { msg: userText }).done(function(data) {
+        var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+        $("#chatbox").append(botHtml);
+        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+});
+}
+
+    
+	
+    $("#textInput").keypress(function(e) {
+    //if enter key is pressed
+        if(e.which == 13) {
+            getResponseText();
+        }
+    });
+	$("#buttonInput").click(function() {
+        getResponseText();
+    });
+	
+    $('#start-btn').on('click', function(e) {
+		if (Content.length) {
+		Content=' ';
+		
+		Content += ' ';
+	}
+		recognition.start();
+	});
+
+	
+	  function download(){
+   var download = document.getElementById("download");
+    var image = document.getElementById("CANVAS").toDataURL("image/png")
+                    .replace("image/jpg", "image/octet-stream");
+        download.setAttribute("href", image);
+  
+  }
+
+  var video = document.querySelector("#videoElement");
+ 
+if (navigator.mediaDevices.getUserMedia) 
+{       
+    navigator.mediaDevices.getUserMedia({video: true})
+  .then(function(stream) {
+    video.srcObject = stream;
+  })
+  .catch(function(err0r) {
+    console.log("Something went wrong!");
+  });
+  
+  
+  
+var i=0;
+function myFunction() {
+  var x =  document.getElementById("CANVAS") ;
+  var ctx = x.getContext("2d");
+  ctx.fillStyle = "#FF0000";
+  
+  ctx.drawImage(video, 0, 0, 400, 350);
+
+  //ctx.fillRect(20, 20, 150, 100);
+
+  if (i <10)
+  {
+  document.body.appendChild(x);
+  i=i+1;
+  };
+ 
+
+}
+
+
+}
+
+    
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	
+	
+	</div>
+</div>
+</body>
+</html>
