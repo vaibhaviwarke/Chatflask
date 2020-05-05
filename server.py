@@ -12,16 +12,11 @@ from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import Dense
 
 import sys
-print("Python version")
-print (sys.version)
 
-application = Flask(__name__)
-
-
+app = Flask(__name__)
 
 f=open('chatbot.txt','r',errors = 'ignore')
 raw=f.read()
-
 
 raw=raw.lower()# converts to lowercase
 nltk.download('punkt') # first-time use for english
@@ -30,7 +25,6 @@ sent_tokens = nltk.sent_tokenize(raw)# converts to list of sentences
 word_tokens = nltk.word_tokenize(raw)# converts to list of words
 
 lemmer = nltk.stem.WordNetLemmatizer()
-
 
 def LemTokens(tokens):
     return [lemmer.lemmatize(token) for token in tokens]
@@ -206,11 +200,11 @@ def imageprocess(imagename):
 
 
 #define app routes
-@application.route("/")
+@app.route("/")
 def index():
     return render_template("index.html")
 	
-@application.route("/get")
+@app.route("/get")
 #function for the bot response
 def text():
      input=request.args.get('msg')
@@ -218,14 +212,14 @@ def text():
      return text_response(input)
     
  
-@application.route('/voice')
+@app.route('/voice')
 def get_voice():
      input=request.args.get('voice')
      #print(input)
      return text_response(input)
 
 
-@application.route('/call', methods=['POST'])
+@app.route('/call', methods=['POST'])
 def calls():
     print(request.method)
     print(output)
@@ -238,13 +232,13 @@ def calls():
 
 
 
-@application.route('/uploader', methods = ['GET', 'POST'])
+@app.route('/uploader', methods = ['GET', 'POST'])
 def upload_file():
    global secure_filename
    if request.method == 'POST':
       f = request.files['file']
       secure_filename=secure_filename(f.filename)
-      img_path=os.path.join(application.root_path,secure_filename)
+      img_path=os.path.join(app.root_path,secure_filename)
       f.save(img_path)
       print("File name printed")
       print(f.filename)
@@ -255,4 +249,4 @@ def upload_file():
 
 
 if __name__ == "__main__":
-    application.run()
+    app.run(debug=True)
